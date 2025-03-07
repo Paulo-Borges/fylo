@@ -31,6 +31,7 @@ body {
 }
 .header-menu {
     display: flex;
+    cursor: pointer;
     gap: 30px;
 }
 .header-logo img {
@@ -85,6 +86,7 @@ body {
 .location-get-started {
     display: flex;
     justify-content: center;
+   cursor: pointer;
     align-items: center;
     margin: 0px 0px 100px 25px;
     background: blue;
@@ -137,4 +139,42 @@ body {
     font-size: 16px;
     font-weight: regular;
     width: 360px;
+}
+.stay-ceo {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-left: 40px;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.stay-ceo p {
+    font-family: Roboto, "Sans Serif";
+    font-size: 12px;
+    font-weight: regular;
+}
+.stay-ceo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.stay-ceo-avatar {
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    gap: 10px;
+}
+.stay-ceo-avatar h2 {
+    font-family: Roboto, "Sans Serif";
+    font-size: 14px;
+    font-weight: regular;
+}
+.stay-ceo-avatar span {
+    font-family: Roboto, "Sans Serif";
+    font-size: 12px;
+    font-weight: regular;
 }
