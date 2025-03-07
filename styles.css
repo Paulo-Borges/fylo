@@ -178,3 +178,55 @@ body {
     font-size: 12px;
     font-weight: regular;
 }
+.getfree {
+display: flex;
+padding-top: 40px;
+background: #6e6e6e;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.getfree h1{
+    display: flex;
+    text-align: center;
+    padding-left: 10px;
+    font-family: Roboto, "Sans Serif";
+    font-size: 20px;
+    font-weight: regular;
+}
+.getfree-stores {
+    margin: 20px 0px;
+}
+.getfree-stores span{
+    display: flex;
+    text-align: center;
+    font-family: Roboto, "Sans Serif";
+    font-size: 16px;
+    font-weight: regular;
+    width: 270px;
+}
+.getfree input{
+    width: 340px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.getfree input::placeholder{
+    padding-left: 20px;
+    color: #ccc;
+}
+.getfree-getstarted {
+    display: flex;
+    justify-content: center;
+   cursor: pointer;
+    align-items: center;
+    margin: 0px 0px 90px 5px;
+    background: blue;
+    width: 340px;
+    height: 40px;
+}
+.getfree-getstarted h1 {
+   color: #fff;
+   font-family: Roboto, "Sans Serif";
+   font-size: 14px;
+   font-weight: regular;
+}
