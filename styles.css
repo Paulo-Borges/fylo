@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    height: 8000px;
 }
 .container {
     display: flex;
@@ -229,4 +230,11 @@ align-items: center;
    font-family: Roboto, "Sans Serif";
    font-size: 14px;
    font-weight: regular;
+}
+.fylo-address {
+    padding: 50px 30px;
+    background: blue;
+}
+.fylo-address-title img {
+    color: white;
 }
