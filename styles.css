@@ -7,20 +7,23 @@
 }
 
 :root {
-    --primary-background: ;
+    --primary-background: #f4f4f42d;
+    --second-background: #4b406ba0;
+    --background-address: rgb(1, 1, 69);
+    --color-placeholder: #ccc;
 }
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    height: 8000px;
+    height: 2800px;
 }
 .container {
     display: flex;
     flex-direction: column;
     width: 390px;
-    background: #ccc;
+    background: var(--primary-background);
 }
 .header {
     display: flex;
@@ -45,7 +48,7 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    align-item: center;
+    align-items: center;
 }
 .location-img img {
     width: 340px;
@@ -58,7 +61,7 @@ body {
     display: flex;
     text-align: center;
     padding-left: 20px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 28px;
     font-weight: bold;
     width: 340px;
@@ -70,7 +73,7 @@ body {
     display: flex;
     text-align: center;
     padding-left: 20px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: regular;
     width: 340px;
@@ -82,23 +85,23 @@ body {
 }
 .location-input input::placeholder{
     padding-left: 20px;
-    color: #ccc;
+    color: var(--color-placeholder);
 }
 .location-get-started {
     display: flex;
     justify-content: center;
-   cursor: pointer;
+    cursor: pointer;
     align-items: center;
-    margin: 0px 0px 100px 25px;
+    margin: 0px 0px 100px 5px;
     background: blue;
     width: 340px;
     height: 40px;
 }
 .location-get-started h1 {
    color: #fff;
-   font-family: Roboto, "Sans Serif";
-    font-size: 18px;
-    font-weight: regular;
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   font-weight: regular;
 }
 .stay-img img {
     display: block;
@@ -112,7 +115,7 @@ body {
     display: flex;
     text-align: center;
     padding-left: 60px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: regular;
     width: 340px;
@@ -122,7 +125,7 @@ body {
     text-align: center;
     margin-top: 20px;
     padding-left: 20px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: regular;
     width: 360px;
@@ -136,7 +139,7 @@ body {
     margin: 30px 0px;
     text-decoration: underline;
     padding-left: 20px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: regular;
     width: 360px;
@@ -149,13 +152,13 @@ body {
     padding: 30px;
     flex-direction: column;
     background-color: #fff;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px 15px #a8a7a709;
     width: 300px;
     height: 200px;
     margin-bottom: 100px;
 }
 .stay-ceo p {
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: regular;
 }
@@ -170,19 +173,19 @@ body {
     gap: 10px;
 }
 .stay-ceo-avatar h2 {
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: regular;
 }
 .stay-ceo-avatar span {
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: regular;
 }
 .getfree {
 display: flex;
 padding-top: 40px;
-background: #6e6e6e;
+background: var(--second-background);
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -191,7 +194,7 @@ align-items: center;
     display: flex;
     text-align: center;
     padding-left: 10px;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: regular;
 }
@@ -201,7 +204,7 @@ align-items: center;
 .getfree-stores span{
     display: flex;
     text-align: center;
-    font-family: Roboto, "Sans Serif";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: regular;
     width: 270px;
@@ -213,7 +216,7 @@ align-items: center;
 }
 .getfree input::placeholder{
     padding-left: 20px;
-    color: #ccc;
+    color: var(--color-placeholder);
 }
 .getfree-getstarted {
     display: flex;
@@ -227,14 +230,85 @@ align-items: center;
 }
 .getfree-getstarted h1 {
    color: #fff;
-   font-family: Roboto, "Sans Serif";
+   font-family: "Roboto", sans-serif;
    font-size: 14px;
    font-weight: regular;
 }
 .fylo-address {
-    padding: 50px 30px;
-    background: blue;
+    padding: 50px 40px;
+    background: var(--background-address);
 }
 .fylo-address-title img {
-    color: white;
+    margin-bottom: 30px;
+}
+.fylo-address-phone {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.fylo-address-phone span {
+   color: #fff;
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   font-weight: regular;
+}
+.fylo-address-email {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 60px;
+}
+.fylo-address-email span {
+   color: #fff;
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   font-weight: regular;
+}
+.fylo-address-about li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+    cursor: pointer;
+}
+.fylo-address-about a:hover {
+    color: blue;
+    cursor: pointer;
+}
+.fylo-address-about a {
+    text-decoration: none;
+    color: #fff;
+}
+.fylo-address-contact {
+    margin-top: 60px;
+}
+.fylo-address-contact li {
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+}
+.fylo-address-contact a:hover {
+    color: blue;
+    cursor: pointer;
+}
+.fylo-address-contact a {
+    text-decoration: none;
+    color: #fff;
+}
+.fylo-address-rede {
+    margin-top: 60px;
+}
+.fylo-address-rede ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #d9d3d3;
+}
+.fylo-address-rede a {
+    color: #fff;
+}
+.fylo-address-rede a:hover {
+    font-size: 24px;
 }
