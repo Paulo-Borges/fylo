@@ -313,6 +313,9 @@ align-items: center;
     font-size: 24px;
 }
 @media (min-width: 399px) and (max-width: 1440px) {
+    body { 
+        height: 2335px;
+    }
     .container {
         display: flex;
         width: 1440px;
