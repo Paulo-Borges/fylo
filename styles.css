@@ -312,3 +312,35 @@ align-items: center;
 .fylo-address-rede a:hover {
     font-size: 24px;
 }
+@media (min-width: 399px) and (max-width: 1440px) {
+    .container {
+        display: flex;
+        width: 1440px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 80px;
+    }
+    .header-logo img {
+        width: 100%;
+    }
+    .location {
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 1430px;
+    }
+    .location-files h1{
+        text-align: start;
+        padding-left: 0px;
+        width: 50%;
+    }
+    .location-img img {
+        width: 100%;
+    }
+    .location-desktop {
+        width: 800px;
+    }
+}
