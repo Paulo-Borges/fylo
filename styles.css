@@ -75,7 +75,7 @@ body {
     padding-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     width: 340px;
 }
 .location-input input{
@@ -101,7 +101,7 @@ body {
    color: #fff;
    font-family: "Roboto", sans-serif;
    font-size: 18px;
-   font-weight: regular;
+   font-weight: normal;
 }
 .stay-img img {
     display: block;
@@ -117,7 +117,7 @@ body {
     padding-left: 60px;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    font-weight: regular;
+    font-weight: normal;
     width: 340px;
 }
 .stay-container p {
@@ -127,7 +127,7 @@ body {
     padding-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     width: 360px;
 }
 .stay-works {
@@ -141,7 +141,7 @@ body {
     padding-left: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     width: 360px;
 }
 .stay-ceo {
@@ -160,7 +160,7 @@ body {
 .stay-ceo p {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
-    font-weight: regular;
+    font-weight: normal;
 }
 .stay-ceo img {
     width: 30px;
@@ -175,12 +175,12 @@ body {
 .stay-ceo-avatar h2 {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-weight: regular;
+    font-weight: normal;
 }
 .stay-ceo-avatar span {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
-    font-weight: regular;
+    font-weight: normal;
 }
 .getfree {
 display: flex;
@@ -196,7 +196,7 @@ align-items: center;
     padding-left: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight: regular;
+    font-weight: normal;
 }
 .getfree-stores {
     margin: 20px 0px;
@@ -206,7 +206,7 @@ align-items: center;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     width: 270px;
 }
 .getfree input{
@@ -232,7 +232,7 @@ align-items: center;
    color: #fff;
    font-family: "Roboto", sans-serif;
    font-size: 14px;
-   font-weight: regular;
+   font-weight: normal;
 }
 .fylo-address {
     padding: 50px 40px;
@@ -250,7 +250,7 @@ align-items: center;
    color: #fff;
    font-family: "Roboto", sans-serif;
    font-size: 16px;
-   font-weight: regular;
+   font-weight: normal;
 }
 .fylo-address-email {
     display: flex;
@@ -261,14 +261,14 @@ align-items: center;
    color: #fff;
    font-family: "Roboto", sans-serif;
    font-size: 16px;
-   font-weight: regular;
+   font-weight: normal;
 }
 .fylo-address-about li {
     margin-bottom: 20px;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
     cursor: pointer;
 }
 .fylo-address-about a:hover {
@@ -287,7 +287,7 @@ align-items: center;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: normal;
 }
 .fylo-address-contact a:hover {
     color: blue;
@@ -335,12 +335,32 @@ align-items: center;
     .location-files h1{
         text-align: start;
         padding-left: 0px;
-        width: 50%;
+        width: 60%;
     }
     .location-img img {
         width: 100%;
     }
     .location-desktop {
         width: 800px;
+    }
+    .location-stores {
+        margin: 0px;
+    }
+    .location-stores span{
+        text-align: start;
+        padding-left: 0px;
+        width: 60%;
+    }
+    .location-input-desktop {
+        display: flex;
+        width: 60%;
+    }
+    .location-input {
+        width: 50%; 
+    }
+    .location-get-started h1 {
+       
+       font-size: 18px;
+       font-weight: normal;
     }
 }
