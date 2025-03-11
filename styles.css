@@ -318,7 +318,7 @@ align-items: center;
     }
     .container {
         display: flex;
-        width: 1440px;
+        width: 100%;
     }
     .header {
         display: flex;
@@ -345,9 +345,10 @@ align-items: center;
     }
     .location-desktop {
         width: 800px;
+        
     }
     .location-stores {
-        margin: 0px;
+        margin: 0px 0px 30px 0px;
     }
     .location-stores span{
         text-align: start;
@@ -356,14 +357,20 @@ align-items: center;
     }
     .location-input-desktop {
         display: flex;
+        justify-content: space-between;
         width: 60%;
     }
     .location-input {
-        width: 50%; 
+        display: flex;
+        border-radius: 6px;
+        width: 60%; 
     }
+    .location-get-started {
+        width: 40%; 
+        border-radius: 6px;
+     }
     .location-get-started h1 {
-       
-       font-size: 18px;
+       font-size: 16px;
        font-weight: normal;
     }
 }
