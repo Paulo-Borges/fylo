@@ -373,4 +373,51 @@ align-items: center;
        font-size: 16px;
        font-weight: normal;
     }
+    .stay {
+        display: flex;
+        padding: 80px;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url('./images/bg-curve-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .stay-img img {
+        width: 100%;
+    }
+    .stay-container h1 {
+        display: flex;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: start;
+        padding-left: 0px;
+        width: 200%;
+
+    }
+    .stay-container p {
+        text-align: start;
+        padding-left: 0px;
+        width: 60%;
+    }
+    .stay-works {
+        justify-content: start;
+        padding-left: 0px;
+      
+    } 
+    .stay-ceo {
+            /* display: flex;
+            justify-content: center;
+            text-align: start;
+            margin-left: 40px;
+            padding: 30px;
+            flex-direction: column;
+            background-color: #fff;
+            box-shadow: 0 0 5px 15px #a8a7a709;
+            width: 300px;
+            height: 200px;
+            margin-bottom: 100px; */
+    }
 }
