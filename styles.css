@@ -405,19 +405,9 @@ align-items: center;
     .stay-works {
         justify-content: start;
         padding-left: 0px;
-      
+        cursor: pointer;
     } 
     .stay-ceo {
-            /* display: flex;
-            justify-content: center;
-            text-align: start;
-            margin-left: 40px;
-            padding: 30px;
-            flex-direction: column;
-            background-color: #fff;
-            box-shadow: 0 0 5px 15px #a8a7a709;
-            width: 300px;
-            height: 200px;
-            margin-bottom: 100px; */
+        margin-left: 0px;
     }
 }
