@@ -221,7 +221,7 @@ align-items: center;
 .getfree-getstarted {
     display: flex;
     justify-content: center;
-   cursor: pointer;
+    cursor: pointer;
     align-items: center;
     margin: 0px 0px 90px 5px;
     background: blue;
@@ -409,5 +409,35 @@ align-items: center;
     } 
     .stay-ceo {
         margin-left: 0px;
+    }
+    .getfree {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .getfree-stores-desktop h1 {
+    color:#fff;
+    padding-left: 0px;
+    font-size: 30px;
+    }
+    .getfree-stores-desktop span {
+        color:#fff;
+        padding-left: 0px;
+        font-size: 16px;
+        text-align: start;
+        width: 470px;
+        font-weight: 100;
+        }
+    .getfree-input-desktop {
+                margin-top: 60px;
+        }
+    .getfree-input-desktop input {
+            width: 500px;
+            border-radius: 4px;
+    }
+    .getfree-getstarted {
+        width: 300px;
+        border-radius: 4px;
     }
 }
