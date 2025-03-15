@@ -44,7 +44,7 @@ body {
 }
 .location {
     display: flex;
-    width: 390px;
+    width: 100%;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -314,7 +314,7 @@ align-items: center;
 }
 @media (min-width: 399px) and (max-width: 1440px) {
     body { 
-        height: 2335px;
+        height: auto;
     }
     .container {
         display: flex;
@@ -333,19 +333,18 @@ align-items: center;
         flex-direction: row;
         flex-direction: row-reverse;
         align-items: center;
-        width: 1430px;
+        padding: 80px;
+        width: 100%;
     }
     .location-files h1{
         text-align: start;
         padding-left: 0px;
-        width: 60%;
+        font-size: 32px;
+        width: 500px;
+        
     }
     .location-img img {
         width: 100%;
-    }
-    .location-desktop {
-        width: 800px;
-        
     }
     .location-stores {
         margin: 0px 0px 30px 0px;
@@ -439,5 +438,17 @@ align-items: center;
     .getfree-getstarted {
         width: 300px;
         border-radius: 4px;
+    }
+    .fylo-address {
+        display: flex;
+        justify-content: space-around;
+    }
+    .fylo-address-about {
+        margin-top: 40px;
+    }
+    .fylo-address-rede a {
+        border: solid 1px #fff;
+        border-radius: 50px;
+        padding: 5px;
     }
 }
