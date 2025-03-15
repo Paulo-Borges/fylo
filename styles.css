@@ -19,7 +19,6 @@ body {
 }
 .container {
     display: flex;
-    border: 1px solid red;
     flex-direction: column;
     width: 390px;
     background: var(--primary-background);
@@ -338,8 +337,8 @@ align-items: center;
     .location-files h1{
         text-align: start;
         padding-left: 0px;
-        font-size: 24px;
-        width: 400px;
+        font-size: 20px;
+        width: 300px;
         
     }
     .location-desktop {
@@ -376,8 +375,8 @@ align-items: center;
     }
     .stay {
         display: flex;
-        padding: 40px;
-        width: 100%;
+        padding: 16px;
+        max-width: 100%;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
@@ -391,15 +390,15 @@ align-items: center;
         display: none;
     }
     .stay-container-desktop {
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .stay-container h1 {
         display: flex;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: bold;
         text-align: start;
         padding-left: 0px;
-        width: 90%;
+        width: 80%;
     }
     .stay-container p {
         text-align: start;
@@ -422,15 +421,15 @@ align-items: center;
     }
     .getfree-stores-desktop h1 {
     color:#fff;
-    padding-left: 60px;
-    font-size: 30px;
+    padding-left: 20px;
+    font-size: 26px;
     }
     .getfree-stores-desktop span {
         color:#fff;
         padding-left: 0px;
-        font-size: 16px;
+        font-size: 12px;
         text-align: start;
-        width: 450px;
+        width: 300px;
         font-weight: 100;
         }
     .getfree-input-desktop {
@@ -439,11 +438,11 @@ align-items: center;
         }
     .getfree-input-desktop input {
         padding-left: 0px;
-        max-width: 500px;
+        max-width: 300px;
         border-radius: 4px;
     }
     .getfree-getstarted {
-        width: 330px;
+        width: 300px;
         border-radius: 4px;
     }
     .fylo-address-about {
