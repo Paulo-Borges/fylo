@@ -36,8 +36,11 @@ body {
   cursor: pointer;
   gap: 30px;
 }
-.header-menu li:hover {
-  border: black;
+.header-menu a:hover {
+  border-bottom: black;
+}
+.header-menu a {
+  color: black;
 }
 .header-logo img {
   width: 90px;
